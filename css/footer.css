@@ -1,0 +1,26 @@
+.footer {
+  background-color: #eae8e1;
+}
+
+.footer-copyright,
+.footer-links {
+  text-align: center;
+}
+
+.footer-links a,
+.footer-links a:link,
+.footer-links a:visited {
+  border: 0;
+}
+
+@media only screen and (min-width: 50em) {
+
+  .footer-copyright {
+    text-align: left;
+  }
+
+  .footer-links {
+    text-align: right;
+  }
+
+}
