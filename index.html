@@ -1,6 +1,25 @@
 ---
 layout: default
+title: Home
+showbanner: yes
+bannertext: Dinosaurs are awesomesauce!
 ---
 
  	<h1>Dinos 'R' us</h1>
  	<p>Lorem ipsum dolor sit amet, conestteur adispldcing alit.</p>
+
+ 	<div class="grid promo-group">
+
+ 		<div class="gutter unit unit-s-1 unit-m1-3 unit-l-1-3">
+ 			{% include promo-small.html title="Promo 1" desc="Super-awesome sale!" image="air-dinos/pteranodon.jpg" %}
+ 		</div>
+
+ 		<div class="gutter unit unit-s-1 unit-m1-3 unit-l-1-3">
+ 			{% include promo-small.html title="Promo 2" desc="Amazing deal!" image="air-dinos/archeopteryx.jpg" %}
+ 		</div>
+
+ 		<div class="gutter unit unit-s-1 unit-m1-3 unit-l-1-3">
+ 			{% include promo-small.html title="Promo 3" desc="Fantastico!" image="air-dinos/rhamphorhynchus.jpg" %}
+ 		</div>
+
+ 	</div>
